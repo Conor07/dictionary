@@ -6,7 +6,6 @@ const MultipleMeanings = ({ data }) => {
   return data.meanings.map((meaning, index) => {
     return (
       <div key={`meanings${index}`}>
-        {/* <CardSubTitle text={`meaning ${index + 1}`} /> */}
         <CardSubTitle text={`${meaning.partOfSpeech}`} />
 
         {meaning.definitions.map((item, index) => {
