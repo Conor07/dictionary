@@ -196,7 +196,8 @@ body {
   justify-items: center;
 }
 
-.error {
+.error,
+.loading {
   font-size: 2.5rem;
   background-color: white;
   color: var(--primary-colour);
@@ -326,6 +327,12 @@ body {
   #footer div {
     font-size: 1.25vw;
   }
+
+  .error,
+  .loading {
+    width: fit-content;
+    max-width: 90%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -431,7 +438,7 @@ body {
   }
 
   .search-bar-input {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
 
   .search-bar-button {
