@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dictionary/static/css/main.6d6cc38a.chunk.css",
-    "main.js": "/dictionary/static/js/main.065d2bf8.chunk.js",
-    "main.js.map": "/dictionary/static/js/main.065d2bf8.chunk.js.map",
+    "main.css": "/dictionary/static/css/main.4664ef06.chunk.css",
+    "main.js": "/dictionary/static/js/main.f8b35e0c.chunk.js",
+    "main.js.map": "/dictionary/static/js/main.f8b35e0c.chunk.js.map",
     "runtime-main.js": "/dictionary/static/js/runtime-main.8a42bc93.js",
     "runtime-main.js.map": "/dictionary/static/js/runtime-main.8a42bc93.js.map",
     "static/js/2.182571c8.chunk.js": "/dictionary/static/js/2.182571c8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d05d0ac7.chunk.js": "/dictionary/static/js/3.d05d0ac7.chunk.js",
     "static/js/3.d05d0ac7.chunk.js.map": "/dictionary/static/js/3.d05d0ac7.chunk.js.map",
     "index.html": "/dictionary/index.html",
-    "static/css/main.6d6cc38a.chunk.css.map": "/dictionary/static/css/main.6d6cc38a.chunk.css.map",
+    "static/css/main.4664ef06.chunk.css.map": "/dictionary/static/css/main.4664ef06.chunk.css.map",
     "static/js/2.182571c8.chunk.js.LICENSE.txt": "/dictionary/static/js/2.182571c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8a42bc93.js",
     "static/js/2.182571c8.chunk.js",
-    "static/css/main.6d6cc38a.chunk.css",
-    "static/js/main.065d2bf8.chunk.js"
+    "static/css/main.4664ef06.chunk.css",
+    "static/js/main.f8b35e0c.chunk.js"
   ]
 }
