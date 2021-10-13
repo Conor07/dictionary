@@ -13,7 +13,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 library.add(faBook, faBookOpen, faCode, faGithub);
 
-const defaultAPIURL = "https://api.dictionaryapi.dev/api/v2/entries/en/hello";
+const DEFAULT_API_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/hello";
 
 function App() {
   const [data, setData] = useState({});
@@ -22,7 +22,12 @@ function App() {
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetchDictionaryAPIData(defaultAPIURL, setData, setDataLoaded, setDataError);
+    fetchDictionaryAPIData(
+      DEFAULT_API_URL,
+      setData,
+      setDataLoaded,
+      setDataError
+    );
   }, []);
 
   return (
