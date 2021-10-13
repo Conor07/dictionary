@@ -26,7 +26,6 @@ const Card = ({ data }) => {
       <CardItem heading="origin" text={data.origin} />
       {numberOfMeanings === 1 ? (
         <div key={"single-meaning-container1"}>
-          {/* <SingleMeaning titleText="meaning" data={data} /> */}
           <SingleMeaning
             titleText={`${data.meanings[0].partOfSpeech}`}
             data={data}
@@ -34,7 +33,6 @@ const Card = ({ data }) => {
         </div>
       ) : !showMore ? (
         <div key={"single-meaning-container1"}>
-          {/* <SingleMeaning titleText="meaning 1" data={data} /> */}
           <SingleMeaning
             titleText={`${data.meanings[0].partOfSpeech}`}
             data={data}
