@@ -1,5 +1,3 @@
-const TEST_URL = "test_api_return_2.json";
-
 const fetchDictionaryAPIData = async (
   api_url,
   setData,
@@ -8,8 +6,7 @@ const fetchDictionaryAPIData = async (
 ) => {
   let fetchError = false;
 
-  // let data = await fetch(api_url)
-  let data = await fetch(TEST_URL)
+  let data = await fetch(api_url)
     .then((response) => {
       if (response.ok) {
         fetchError = false;
