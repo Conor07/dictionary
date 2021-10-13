@@ -1,12 +1,12 @@
 const fetchDictionaryAPIData = async (
-  api_url,
+  aPIURL,
   setData,
   setDataLoaded,
   setDataError
 ) => {
   let fetchError = false;
 
-  let data = await fetch(api_url)
+  let data = await fetch(aPIURL)
     .then((response) => {
       if (response.ok) {
         fetchError = false;
