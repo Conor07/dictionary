@@ -4,9 +4,9 @@ This is a dictionary react web app built using the the free Dictionary API.
 
 It was a built to practice Front End Web Development and is a desktop-first app.
 
-Dictionary API Links:
-[https://dictionaryapi.dev](https://dictionaryapi.dev)
+Dictionary API Links:  
+[https://dictionaryapi.dev](https://dictionaryapi.dev)  
 [https://github.com/meetDeveloper/freeDictionaryAPI](https://github.com/meetDeveloper/freeDictionaryAPI)
 
-View the app here:
+View the app here:  
 [https://conor07.github.io/dictionary/](https://conor07.github.io/dictionary/)
