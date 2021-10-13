@@ -25,11 +25,11 @@ const fetchDictionaryAPIData = async (
 
   if (!fetchError) {
     setData(data[0]);
-    setDataLoaded(true);
     setDataError(false);
+    setDataLoaded(true);
   } else {
-    setDataLoaded(false);
     setDataError(true);
+    setDataLoaded(true);
   }
 };
 

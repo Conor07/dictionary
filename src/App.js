@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Logo from "./components/Logo";
 import SearchBar from "./components/SearchBar";
 import Card from "./components/Card";
-import Error from "./components/Error";
+import LoadingAndError from "./components/LoadingAndError";
 import Footer from "./components/Footer";
 
 import fetchDictionaryAPIData from "./utils/fetchDictionaryAPIData";
@@ -48,7 +48,7 @@ function App() {
           {dataLoaded && !dataError ? (
             <Card data={data} showMore={showMore} setShowMore={setShowMore} />
           ) : (
-            <Error />
+            <LoadingAndError dataLoaded={dataLoaded} />
           )}
         </div>
 
