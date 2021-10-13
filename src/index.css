@@ -2,7 +2,6 @@
   --primary-colour: rgb(197, 24, 24);
   --secondary-colour: rgb(167, 24, 24);
   --grey-colour: rgb(167, 167, 167);
-  /* --border: 1px solid black; */
   --border: 3px solid var(--grey-colour);
   --footer-border: 3px solid var(--primary-colour);
   --border-radius: 10px;
@@ -193,7 +192,7 @@ body {
   border-radius: var(--border-radius);
   padding: 0 1rem;
   margin: 0 auto;
-  width: 30%;
+  width: fit-content;
   justify-items: center;
 }
 
@@ -275,7 +274,6 @@ body {
   }
 
   #footer div {
-    /* font-size: 1.75vw; */
     font-size: 1.25vw;
   }
 }
