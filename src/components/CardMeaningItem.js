@@ -11,17 +11,13 @@ const CardMeaningItem = ({ meaning, item, index }) => {
         text={item.definition}
       />
 
-      {/* <CardItem
-        key={`meaning${index}`}
-        heading="part of speech"
-        text={meaning.partOfSpeech}
-      /> */}
-
-      <CardItem
-        key={`definiton${newkey + 2}`}
-        heading="example"
-        text={item.example}
-      />
+      {item.example !== undefined ? (
+        <CardItem
+          key={`definiton${newkey + 2}`}
+          heading="example"
+          text={item.example}
+        />
+      ) : null}
     </div>
   );
 };
