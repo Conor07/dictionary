@@ -6,9 +6,8 @@ import SingleMeaning from "./SingleMeaning";
 import ShowMoreButton from "./ShowMoreButton";
 import MultipleMeanings from "./MultipleMeanings";
 
-const Card = ({ data }) => {
+const Card = ({ data, showMore, setShowMore }) => {
   const [numberOfMeanings, setNumberOfMeanings] = useState(0);
-  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     setNumberOfMeanings(data.meanings.length);

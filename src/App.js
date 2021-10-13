@@ -19,6 +19,7 @@ function App() {
   const [data, setData] = useState({});
   const [dataLoaded, setDataLoaded] = useState(false);
   const [dataError, setDataError] = useState(false);
+  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     fetchDictionaryAPIData(defaultAPIURL, setData, setDataLoaded, setDataError);
@@ -36,9 +37,14 @@ function App() {
             setDataLoaded={setDataLoaded}
             dataError={dataError}
             setDataError={setDataError}
+            setShowMore={setShowMore}
           />
 
-          {dataLoaded && !dataError ? <Card data={data} /> : <Error />}
+          {dataLoaded && !dataError ? (
+            <Card data={data} showMore={showMore} setShowMore={setShowMore} />
+          ) : (
+            <Error />
+          )}
         </div>
 
         <footer id="footer-container">

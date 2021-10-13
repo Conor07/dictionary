@@ -3,7 +3,7 @@ import fetchDictionaryAPIData from "../utils/fetchDictionaryAPIData";
 
 const API_BASE_URL = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 
-const SearchBar = ({ setData, setDataLoaded, setDataError }) => {
+const SearchBar = ({ setData, setDataLoaded, setDataError, setShowMore }) => {
   const [searchText, setSearchText] = useState("");
 
   const handleInput = (e) => {
@@ -14,6 +14,7 @@ const SearchBar = ({ setData, setDataLoaded, setDataError }) => {
     const api_new_url = `${API_BASE_URL}${searchText}`;
 
     try {
+      setShowMore(false);
       fetchDictionaryAPIData(api_new_url, setData, setDataLoaded, setDataError);
     } catch (error) {
       console.log(`RANDOM ERROR: ${error}`);
