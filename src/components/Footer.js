@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="footer-1">
-        This app uses the data from the Dictionary API <span> </span>
+        This app uses the API/data from the Dictionary API <span> </span>
         <FontAwesomeIcon icon="code" /> <span> </span>:
         <br />
         <a href="https://dictionaryapi.dev">https://dictionaryapi.dev</a>
